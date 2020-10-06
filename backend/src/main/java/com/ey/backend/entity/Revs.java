@@ -1,5 +1,6 @@
 package com.ey.backend.entity;
 
+// An entity that represents the 4th and 5th fields in the excel file.
 public class Revs {
     final private double debit;
     final private double credit;

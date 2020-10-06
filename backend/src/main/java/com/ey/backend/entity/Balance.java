@@ -1,5 +1,6 @@
 package com.ey.backend.entity;
 
+// An entity that represents the 2nd, 3rd, 6th and 7th fields in the excel file.
 public class Balance {
     private final double asset;
     private final double passive;

@@ -7,11 +7,13 @@ import com.ey.backend.entity.Revs;
 import com.ey.backend.service.DatabaseService;
 import org.springframework.web.bind.annotation.*;
 
-import java.sql.Array;
-import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
 
+/*
+* This class is a controller which handles
+* POST and GET requests to the '/api' mapping.
+* */
 @CrossOrigin
 @RestController
 @RequestMapping("/api")
