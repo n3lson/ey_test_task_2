@@ -1,3 +1,4 @@
+/* Paths to the backend server. */
 export enum Paths {
   FILES = 'http://localhost:8080/api/files',
   CLASSES = 'http://localhost:8080/api/classes',

@@ -2,6 +2,7 @@ import {Injectable} from '@angular/core';
 import {HttpClient} from '@angular/common/http';
 import {Paths} from '../enum/paths.enum';
 
+/* This service simply makes requests and returns an Observable instance. */
 @Injectable({
   providedIn: 'root'
 })
